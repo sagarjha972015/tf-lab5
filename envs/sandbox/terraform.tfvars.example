@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars for LOCAL testing only (git-ignored).
+# In HCP, set these in the variable set instead.
+tenancy_ocid   = "ocid1.tenancy.oc1..xxxx"
+user_ocid      = "ocid1.user.oc1..xxxx"
+fingerprint    = "aa:bb:cc:..."
+region         = "us-ashburn-1"
+ssh_public_key = "ssh-rsa AAAA... you@host"
+# private_key: set via env var instead: export TF_VAR_private_key="$(cat ~/.oci/tf_key.pem)"
