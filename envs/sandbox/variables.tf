@@ -33,5 +33,5 @@ variable "compartment_name" {
 
 variable "extra_tags" {
   type    = map(string)
-  default = {}
+  default = { lab = "6" }
 }
